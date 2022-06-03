@@ -7,12 +7,19 @@ const rappers = {
     '21 savage':{
         'age':29,
         'birthName':'Shéyaa Bin Abraham-Joseph',
-        'birthLocation':'London, England'},
+        'birthLocation':'London, England'
+    },
     'chance the rapper':{
         'age':29,
         'birthName':'Chancelor Bennet',
         'birthLocation':'Chicago, Illinois'
+    },
+    'unknown':{
+        'age':0,
+        'birthName':'unknown',
+        'birthLocation':'unknown'
     }
+
 }
 
 app.get('/', (request, response) => {
